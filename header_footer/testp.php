@@ -1,6 +1,6 @@
 <?php
-require_once __DIR__ . '/include/init.php';
-require "ProduitModel.php";
+require_once __DIR__ . '/include/dbconnect.php';
+require "fonction.php";
 $Total = 0;
 $Quantite = 0;
 
